@@ -1,3 +1,9 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+body{
+    background-image: "https://images.pexels.com/photos/997494/pexels-photo-997494.jpeg";
+    background-size: cover;
+    
+}

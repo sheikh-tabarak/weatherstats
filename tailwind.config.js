@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+  backgroundImage: {
+        'sunny-weather': "url('/assets/cloudy.jpeg')"
+    }
+    },
   },
   plugins: [],
 }

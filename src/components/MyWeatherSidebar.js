@@ -7,11 +7,10 @@ import { useState } from "react";
 import FetchMyWeather from "../functions/Functions";
 import { useEffect } from "react";
 import { GoDotFill } from "react-icons/go";
-import {AiOutlineClockCircle} from "react-icons/ai";
-import {SlCalender} from "react-icons/sl";
+import { AiOutlineClockCircle } from "react-icons/ai";
+import { SlCalender } from "react-icons/sl";
 
 export default function MyWeatherSidebar(props) {
-  // Getting the location of User on each time he will load the Screen
   useEffect(() => {
     updateMyweather();
   }, [props.Longitude]);
@@ -55,7 +54,7 @@ export default function MyWeatherSidebar(props) {
   }
 
   return (
-    <div className="text-white font-sans lg:fixed right-5 inset-y-5 pt-5 pb-10 px-10 bg-[#00000050] backdrop-blur-lg rounded-[10px] lg:w-[30%]">
+    <div className="mb-5 mx-5 lg:mb-0 lg:mx-0 text-white font-sans lg:fixed right-5 inset-y-5 pt-5  pb-10 px-10 bg-[#00000050] backdrop-blur-lg rounded-[10px] lg:w-[30%]">
       <div className="flex">
         <div className="flex flex-col"> </div>
       </div>
@@ -63,9 +62,15 @@ export default function MyWeatherSidebar(props) {
         <div>
           <div className="flex gap-x-3">
             <span className=" text-[20px] mt-1 font-bold">My Weather </span>
-            <span className="text-green-400 animate-pulse">
-              <GoDotFill />
-            </span>
+            {Data.name ? (
+              <span className="text-green-400 animate-pulse">
+                <GoDotFill />
+              </span>
+            ) : (
+              <span className="text-red-400 ">
+                <GoDotFill />
+              </span>
+            )}
           </div>
         </div>
 
