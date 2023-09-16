@@ -1,0 +1,62 @@
+{
+    "coord": {
+        "lon": 74.3244,
+        "lat": 31.5064
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 303.15,
+        "feels_like": 309.19,
+        "temp_min": 300.99,
+        "temp_max": 303.15,
+        "pressure": 1005,
+        "humidity": 74
+    },
+    "visibility": 6000,
+    "wind": {
+        "speed": 6.17,
+        "deg": 150
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1694791790,
+    "sys": {
+        "type": 1,
+        "id": 7585,
+        "country": "PK",
+        "sunrise": 1694738787,
+        "sunset": 1694783406
+    },
+    "timezone": 18000,
+    "id": 1170157,
+    "name": "Model Town",
+    "cod": 200
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
