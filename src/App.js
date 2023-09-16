@@ -76,9 +76,9 @@ function App() {
     <>
       <section
         // style={{backgroundImage:SunnyImage}}
-        className={"bg-cover h-[100%] w-full bg-[url('./assets/cloudy.jpeg')]"}
+        className={"bg-cover h-full w-full bg-[url('./assets/cloudy.jpeg')]"}
       >
-        <div className=" lg:w-[69%]">
+        <div className=" lg:w-[69%] h-full">
           <div className=" lg:pt-5 lg:px-5 w-full ">
             {/* Start coding here */}
             <div className="text-white font-sans  p-1 bg-[#00000050] backdrop-blur-lg lg:rounded-[10px]">
@@ -164,7 +164,7 @@ function App() {
           <div className="mt-5 lg:mt-0 max-w-screen-xl px-4 mx-auto lg:pt-5 lg:px-5 pb-5 w-full">
             {/* Start coding here */}
             <div className="text-white font-sans  pt-5 pb-14 px-2 lg:px-10 bg-[#00000050] backdrop-blur-lg rounded-[10px] ">
-              <div className=" items-center justify-between p-4 space-y-3 md:flex-row md:space-y-0 md:space-x-4">
+              <div className="items-center justify-between p-4 space-y-3 md:flex-row md:space-y-0 md:space-x-4">
                 <div className="flex justify-between">
                   <div>
                     <span className=" text-[20px] mt-1 font-bold">
